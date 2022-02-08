@@ -2,8 +2,8 @@ function fourgram_prediction
 clc
 close all
 
-        %% QUESTION 2 PART A & B
-        disp('=== Question 2 solution is initiated. ===')
+        %% PART A & B
+        disp('=== Solution is initiated. ===')
                
         testd = h5read('assign2_data2.h5','/testd');
         testx = h5read('assign2_data2.h5','/testx');
